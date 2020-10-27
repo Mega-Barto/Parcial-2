@@ -10,8 +10,10 @@
 
 void ft_printf_alphabet(); // Inicializo la funcion.
 void ft_printf_alphabet(){ // Declaro la funcion.
-    for(int i = 0; i < 26; i++){
-        printf("%c ", 97 + i);
+    for(int i = 97; i <= 122; i++){
+        printf("%c ", i);
+        if(i == 110)
+            printf("%c ", 164);
     }
 }
 

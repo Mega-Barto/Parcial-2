@@ -5,7 +5,6 @@
 
 */
 
-
 #include<stdio.h>
 
 void alphabet(int contador){
@@ -19,12 +18,9 @@ void alphabet(int contador){
 void ft_printf_alphabet(void);
 void ft_printf_alphabet(void){ // Declaro la funcion.
     alphabet(0);
-
 }
 
 int main(){
-
     ft_printf_alphabet(); //Llamo la funcion ft_printf_alphabet.
     return 0;
-
 }

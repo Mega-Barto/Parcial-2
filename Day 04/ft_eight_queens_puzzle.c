@@ -1,5 +1,5 @@
 /*
-    Jhoan Esteban Raigoza Agudelo
+    Ing(C) Jhoan Esteban Raigoza Agudelo
     Codigo: 1007753137                Universidad Tecnologica de pereira.
     Profesor: PhD Ricardo Moreno Laverde
 
@@ -24,6 +24,7 @@ int ft_eight_queens_puzzle(void){
                        {0,0,0,0,0,0,0,0},
                        {0,0,0,0,0,0,0,0}};
     int  contador = 0;
+
     for(int Col_0 = 0; Col_0 < 8; Col_0++){  //Bucle para la primera reina
         Tabla[Col_0][0] = 1; // Pongo la reina 1
 
